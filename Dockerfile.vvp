@@ -1,0 +1,6 @@
+# syntax=docker/dockerfile:1
+FROM iverilog
+ENV DEBIAN_FRONTEND="noninteractive"
+ENV TZ="Europe/UTC"
+WORKDIR /src
+ENTRYPOINT ["vvp"]
