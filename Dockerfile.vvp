@@ -2,5 +2,5 @@
 FROM iverilog
 ENV DEBIAN_FRONTEND="noninteractive"
 ENV TZ="Europe/UTC"
-WORKDIR /src
+WORKDIR /workdir
 ENTRYPOINT ["vvp"]
